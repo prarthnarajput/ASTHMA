@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f5f9ff;
+}
+
+.doctor-profile{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:50px 20px;
+}
+
+.profile-card{
+    max-width:700px;
+    background:white;
+    text-align:center;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.profile-card img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+.profile-card h1{
+    color:#1565c0;
+}
+
+.profile-card h3{
+    margin:10px 0 20px;
+    color:#666;
+}
+
+.profile-card p{
+    line-height:1.8;
+    color:#555;
+}
+
+.details{
+    margin-top:30px;
+    text-align:left;
+}
+
+.details div{
+    padding:12px;
+    border-bottom:1px solid #eee;
+}
+
+.back-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 25px;
+    background:#1565c0;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+}
+
+@media(max-width:768px){
+
+    .doctor-container{
+        grid-template-columns:1fr;
+    }
+
+}
